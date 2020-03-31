@@ -1,0 +1,633 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CANAnalysis\n"
+"POT-Creation-Date: 2018-12-02 16:12+0800\n"
+"PO-Revision-Date: 2018-12-02 16:12+0800\n"
+"Last-Translator: \n"
+"Language-Team: BMTech\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: MainDlg.py\n"
+"X-Poedit-SearchPath-1: CommandDecode.py\n"
+
+#: CommandDecode.py:211 CommandDecode.py:213 CommandDecode.py:283
+#: CommandDecode.py:286 MainDlg.py:404 MainDlg.py:481 MainDlg.py:483
+#: MainDlg.py:712 MainDlg.py:715 MainDlg.py:727 MainDlg.py:801 MainDlg.py:804
+#: MainDlg.py:950 MainDlg.py:952 MainDlg.py:998 MainDlg.py:1000 MainDlg.py:1008
+#: MainDlg.py:1442 MainDlg.py:1710 MainDlg.py:1746 MainDlg.py:1782
+#: MainDlg.py:1818 MainDlg.py:1854 MainDlg.py:1935
+msgid "扩展帧"
+msgstr ""
+
+#: CommandDecode.py:211 CommandDecode.py:284 CommandDecode.py:293
+#: CommandDecode.py:301 MainDlg.py:481 MainDlg.py:707 MainDlg.py:713
+#: MainDlg.py:719 MainDlg.py:796 MainDlg.py:802 MainDlg.py:946 MainDlg.py:950
+#: MainDlg.py:994 MainDlg.py:998 MainDlg.py:1002 MainDlg.py:1445
+#: MainDlg.py:1714 MainDlg.py:1750 MainDlg.py:1786 MainDlg.py:1822
+#: MainDlg.py:1858 MainDlg.py:1939
+msgid "数据帧"
+msgstr ""
+
+#: CommandDecode.py:213 CommandDecode.py:215 CommandDecode.py:287
+#: CommandDecode.py:290 MainDlg.py:483 MainDlg.py:485 MainDlg.py:710
+#: MainDlg.py:716 MainDlg.py:722 MainDlg.py:799 MainDlg.py:805 MainDlg.py:948
+#: MainDlg.py:952 MainDlg.py:996 MainDlg.py:1000 MainDlg.py:1004
+#: MainDlg.py:1066 MainDlg.py:1445 MainDlg.py:1714 MainDlg.py:1750
+#: MainDlg.py:1786 MainDlg.py:1822 MainDlg.py:1858 MainDlg.py:1939
+msgid "远程帧"
+msgstr ""
+
+#: CommandDecode.py:215 CommandDecode.py:289 CommandDecode.py:292
+#: MainDlg.py:401 MainDlg.py:485 MainDlg.py:706 MainDlg.py:709 MainDlg.py:724
+#: MainDlg.py:795 MainDlg.py:798 MainDlg.py:946 MainDlg.py:948 MainDlg.py:994
+#: MainDlg.py:996 MainDlg.py:1006 MainDlg.py:1442 MainDlg.py:1710
+#: MainDlg.py:1746 MainDlg.py:1782 MainDlg.py:1818 MainDlg.py:1854
+#: MainDlg.py:1935
+msgid "标准帧"
+msgstr ""
+
+#: CommandDecode.py:306 MainDlg.py:422
+msgid "接收"
+msgstr ""
+
+#: CommandDecode.py:313
+msgid "解析命令：校验或发送格式错误"
+msgstr ""
+
+#: CommandDecode.py:318
+msgid "解析命令：命令字不支持"
+msgstr ""
+
+#: CommandDecode.py:325
+msgid "解析命令：参数设置不正确或者不支持"
+msgstr ""
+
+#: CommandDecode.py:330
+msgid "解析命令：未读取到配置参数"
+msgstr ""
+
+#: CommandDecode.py:335
+msgid "解析命令：发送CAN报文失败"
+msgstr ""
+
+#: CommandDecode.py:337 CommandDecode.py:370
+msgid "失败"
+msgstr ""
+
+#: CommandDecode.py:348
+msgid "解析命令：未知结果位"
+msgstr ""
+
+#: CommandDecode.py:367 MainDlg.py:423 MainDlg.py:441
+msgid "成功"
+msgstr ""
+
+#: CommandDecode.py:373 MainDlg.py:233 MainDlg.py:1055 MainDlg.py:1570
+#: MainDlg.py:1585
+msgid "未知"
+msgstr ""
+
+#: CommandDecode.py:393
+msgid "设置CAN口成功"
+msgstr ""
+
+#: CommandDecode.py:404
+msgid "设置CAN波特率成功！"
+msgstr ""
+
+#: CommandDecode.py:421 MainDlg.py:827
+msgid "设置透传参数成功!"
+msgstr ""
+
+#: CommandDecode.py:435
+msgid "设置CAN滤波器成功！"
+msgstr ""
+
+#: CommandDecode.py:440
+msgid "清除CAN滤波器成功！"
+msgstr ""
+
+#: CommandDecode.py:445
+msgid "退出透传模式！"
+msgstr ""
+
+#: CommandDecode.py:450
+msgid "重新设置串口波特率成功，正在自动切换波特率。"
+msgstr ""
+
+#: CommandDecode.py:469 MainDlg.py:823
+msgid "成功进入AT指令模式。"
+msgstr ""
+
+#: CommandDecode.py:474
+msgid "指令发送成功"
+msgstr ""
+
+#: CommandDecode.py:540
+msgid "关闭串口成功！"
+msgstr ""
+
+#: CommandDecode.py:542
+msgid "关闭串口失败！"
+msgstr ""
+
+#: CommandDecode.py:550 MainDlg.py:820
+msgid "打开串口成功！"
+msgstr ""
+
+#: CommandDecode.py:553
+msgid "打开串口失败！"
+msgstr ""
+
+#: MainDlg.py:381 MainDlg.py:395 MainDlg.py:398 MainDlg.py:402 MainDlg.py:405
+#: MainDlg.py:408
+msgid "第"
+msgstr ""
+
+#: MainDlg.py:381
+msgid "条发送信息，发送周期必须大于10ms!"
+msgstr ""
+
+#: MainDlg.py:385 MainDlg.py:411
+msgid "请检查输入内容。"
+msgstr ""
+
+#: MainDlg.py:395
+msgid "条发送信息，帧ID输入了非法字符!"
+msgstr ""
+
+#: MainDlg.py:398
+msgid "条发送信息，帧ID大于8位字符!"
+msgstr ""
+
+#: MainDlg.py:402
+msgid "条发送信息，标准帧的帧ID大于0x7FF!"
+msgstr ""
+
+#: MainDlg.py:405
+msgid "条发送信息，扩展帧的帧ID大于0x1FFFFFFF!"
+msgstr ""
+
+#: MainDlg.py:408
+msgid "条发送信息，数据：0x输入了非法字符!"
+msgstr ""
+
+#: MainDlg.py:425
+msgid "接收成功:"
+msgstr ""
+
+#: MainDlg.py:437 MainDlg.py:496 MainDlg.py:1096 MainDlg.py:1108
+#: MainDlg.py:1119 MainDlg.py:1130 MainDlg.py:1141 MainDlg.py:1726
+#: MainDlg.py:1762 MainDlg.py:1799 MainDlg.py:1835 MainDlg.py:1871
+msgid "发送"
+msgstr ""
+
+#: MainDlg.py:443
+msgid "发送成功:"
+msgstr ""
+
+#: MainDlg.py:446
+msgid "发送失败:"
+msgstr ""
+
+#: MainDlg.py:470
+msgid "CAN数据输入超过8个Byte，请重新输入!"
+msgstr ""
+
+#: MainDlg.py:510 MainDlg.py:515
+msgid "关"
+msgstr ""
+
+#: MainDlg.py:520 MainDlg.py:836
+msgid "持续"
+msgstr ""
+
+#: MainDlg.py:538 MainDlg.py:1609
+msgid "关于"
+msgstr ""
+
+#: MainDlg.py:538
+msgid "软件版本号:"
+msgstr ""
+
+#: MainDlg.py:581 MainDlg.py:583 MainDlg.py:585 MainDlg.py:587 MainDlg.py:589
+#: MainDlg.py:1164 MainDlg.py:1189 MainDlg.py:1219 MainDlg.py:1243
+#: MainDlg.py:1267 MainDlg.py:1728 MainDlg.py:1764 MainDlg.py:1801
+#: MainDlg.py:1837 MainDlg.py:1873
+msgid "循环发送"
+msgstr ""
+
+#: MainDlg.py:608 MainDlg.py:622 MainDlg.py:1644
+msgid "只听"
+msgstr ""
+
+#: MainDlg.py:635
+msgid "芯片不支持此波特率，请重新输入CAN波特率！"
+msgstr ""
+
+#: MainDlg.py:638
+msgid "CAN波特率输入非法，请重新输入！"
+msgstr ""
+
+#: MainDlg.py:650 MainDlg.py:665 MainDlg.py:1545 MainDlg.py:1563
+#: MainDlg.py:1578
+msgid "关闭串口"
+msgstr ""
+
+#: MainDlg.py:652 MainDlg.py:760 MainDlg.py:918 MainDlg.py:963 MainDlg.py:1633
+msgid "打开串口"
+msgstr ""
+
+#: MainDlg.py:674
+msgid "无法获得电脑可用串口名。"
+msgstr ""
+
+#: MainDlg.py:699 MainDlg.py:982 MainDlg.py:1022 MainDlg.py:1450
+#: MainDlg.py:1660 MainDlg.py:1677
+msgid "设置"
+msgstr ""
+
+#: MainDlg.py:718 MainDlg.py:721 MainDlg.py:730 MainDlg.py:1002 MainDlg.py:1004
+#: MainDlg.py:1010 MainDlg.py:1442
+msgid "标准和扩展帧"
+msgstr ""
+
+#: MainDlg.py:725 MainDlg.py:728 MainDlg.py:731 MainDlg.py:1006 MainDlg.py:1008
+#: MainDlg.py:1010 MainDlg.py:1445
+msgid "数据和远程帧"
+msgstr ""
+
+#: MainDlg.py:738 MainDlg.py:1014 MainDlg.py:1331 MainDlg.py:1678
+msgid "取消"
+msgstr ""
+
+#: MainDlg.py:746 MainDlg.py:778 MainDlg.py:780 MainDlg.py:916 MainDlg.py:961
+msgid "提示"
+msgstr ""
+
+#: MainDlg.py:746
+msgid ""
+"设备固件版本太低，不支持此功能，请升级到008或以上固件，或使用V3.X版本电脑端软"
+"件，点击确定前往下载。"
+msgstr ""
+
+#: MainDlg.py:755
+msgid "硬件:"
+msgstr ""
+
+#: MainDlg.py:755
+msgid "    固件:"
+msgstr ""
+
+#: MainDlg.py:764
+msgid "串口被关闭"
+msgstr ""
+
+#: MainDlg.py:771
+msgid "硬件/固件版本获取成功!"
+msgstr ""
+
+#: MainDlg.py:778
+msgid "检测到设备固件为透传模块固件，请使用\"CAN透传\"电脑端软件."
+msgstr ""
+
+#: MainDlg.py:780
+msgid ""
+"检测到设备固件版本太低，请升级到008或以上固件，或使用V3.X版本电脑端软件，点击"
+"确定前往下载。"
+msgstr ""
+
+#: MainDlg.py:891 MainDlg.py:902
+msgid "查询波特率成功！波特率 = "
+msgstr ""
+
+#: MainDlg.py:913 MainDlg.py:925 MainDlg.py:1952
+msgid "进入AT指令模式"
+msgstr ""
+
+#: MainDlg.py:915
+msgid "退出AT指令模式"
+msgstr ""
+
+#: MainDlg.py:916
+msgid ""
+"已经进入AT指令模式，请打开串口工具输入AT指令。按确定关闭本软件串口，按取消回"
+"到本软件。"
+msgstr ""
+
+#: MainDlg.py:935 MainDlg.py:976 MainDlg.py:1950
+msgid "进入透传模式"
+msgstr ""
+
+#: MainDlg.py:937
+msgid "透传参数设置框中,帧ID中输入了非法字符!"
+msgstr ""
+
+#: MainDlg.py:941
+msgid "透传参数设置框中,数据长度中输入了非法字符!"
+msgstr ""
+
+#: MainDlg.py:960
+msgid "退出透传模式"
+msgstr ""
+
+#: MainDlg.py:961
+msgid ""
+"已经进入透传模式，请打开串口工具输入透传指令。按确定关闭本软件串口，按取消回"
+"到本软件。"
+msgstr ""
+
+#: MainDlg.py:984 MainDlg.py:988 MainDlg.py:1332 MainDlg.py:1435
+msgid "滤波器"
+msgstr ""
+
+#: MainDlg.py:984
+msgid ": 过滤ID,输入了非法字符!"
+msgstr ""
+
+#: MainDlg.py:988
+msgid ": 过滤MASK,输入了非法字符!"
+msgstr ""
+
+#: MainDlg.py:1160 MainDlg.py:1185 MainDlg.py:1210 MainDlg.py:1234
+#: MainDlg.py:1258
+msgid "停止"
+msgstr ""
+
+#: MainDlg.py:1280
+msgid "清除显示成功!"
+msgstr ""
+
+#: MainDlg.py:1303
+msgid "滤波计算器的帧ID中输入了非法字符！"
+msgstr ""
+
+#: MainDlg.py:1306
+msgid "滤波计算器的帧ID大于8位字符!"
+msgstr ""
+
+#: MainDlg.py:1312
+msgid "扩展帧的帧ID不能大于0x1FFFFFFF!"
+msgstr ""
+
+#: MainDlg.py:1323
+msgid "滤波计算器的滤波器号码中输入了非法字符！"
+msgstr ""
+
+#: MainDlg.py:1326
+msgid "滤波计算器的滤波器号码必须为正整数！"
+msgstr ""
+
+#: MainDlg.py:1329
+msgid "滤波计算器的滤波器号码必须小于等于13！"
+msgstr ""
+
+#: MainDlg.py:1332
+msgid "  为已设置状态，请先取消滤波器才能填入新的滤波参数。"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "序号"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "传输方向"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "状态"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "时间"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "帧类型"
+msgstr ""
+
+#: MainDlg.py:1348
+msgid "帧格式"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "帧ID"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "数据长度"
+msgstr ""
+
+#: MainDlg.py:1348 MainDlg.py:1919 MainDlg.py:1921
+msgid "数据"
+msgstr ""
+
+#: MainDlg.py:1350 MainDlg.py:1977
+msgid "发送成功:----"
+msgstr ""
+
+#: MainDlg.py:1352 MainDlg.py:1979
+msgid "发送失败:----"
+msgstr ""
+
+#: MainDlg.py:1354 MainDlg.py:1981
+msgid "接收成功:----"
+msgstr ""
+
+#: MainDlg.py:1359
+msgid "清除数据成功!"
+msgstr ""
+
+#: MainDlg.py:1364
+msgid "另存为Txt"
+msgstr ""
+
+#: MainDlg.py:1380
+msgid "滤波器设置中包含非法字符!"
+msgstr ""
+
+#: MainDlg.py:1388
+msgid "滤波器设置中包含帧ID超过8位的值!"
+msgstr ""
+
+#: MainDlg.py:1391
+msgid "滤波器设置成功!"
+msgstr ""
+
+#: MainDlg.py:1406
+msgid "硬件滤波器设置"
+msgstr ""
+
+#: MainDlg.py:1412
+msgid "滤波器名:"
+msgstr ""
+
+#: MainDlg.py:1413
+msgid "过滤ID:0x"
+msgstr ""
+
+#: MainDlg.py:1414
+msgid "过滤MASK:0x"
+msgstr ""
+
+#: MainDlg.py:1415 MainDlg.py:1709 MainDlg.py:1745 MainDlg.py:1781
+#: MainDlg.py:1817 MainDlg.py:1853 MainDlg.py:1934
+msgid "帧格式:"
+msgstr ""
+
+#: MainDlg.py:1416 MainDlg.py:1713 MainDlg.py:1749 MainDlg.py:1785
+#: MainDlg.py:1821 MainDlg.py:1857 MainDlg.py:1938
+msgid "帧类型:"
+msgstr ""
+
+#: MainDlg.py:1417 MainDlg.py:1661
+msgid "查询"
+msgstr ""
+
+#: MainDlg.py:1475
+msgid "滤波器计算器"
+msgstr ""
+
+#: MainDlg.py:1477 MainDlg.py:1942
+msgid "帧ID:0x"
+msgstr ""
+
+#: MainDlg.py:1483
+msgid "计算"
+msgstr ""
+
+#: MainDlg.py:1493
+msgid "填入"
+msgstr ""
+
+#: MainDlg.py:1494
+msgid "滤波器:"
+msgstr ""
+
+#: MainDlg.py:1515 MainDlg.py:1975
+msgid "提示消息："
+msgstr ""
+
+#: MainDlg.py:1528
+msgid "取消滤波器滤波!"
+msgstr ""
+
+#: MainDlg.py:1599
+msgid "CAN分析仪"
+msgstr ""
+
+#: MainDlg.py:1610
+msgid "帮助"
+msgstr ""
+
+#: MainDlg.py:1620
+msgid "串口设置"
+msgstr ""
+
+#: MainDlg.py:1623
+msgid "选择串口："
+msgstr ""
+
+#: MainDlg.py:1641
+msgid "CAN设置"
+msgstr ""
+
+#: MainDlg.py:1643
+msgid "模式选择："
+msgstr ""
+
+#: MainDlg.py:1644
+msgid "正常"
+msgstr ""
+
+#: MainDlg.py:1648
+msgid "波特率(k):"
+msgstr ""
+
+#: MainDlg.py:1672
+msgid "滤波器设置"
+msgstr ""
+
+#: MainDlg.py:1676
+msgid "请输入需要显示的帧ID(16进制),多条用空格隔开"
+msgstr ""
+
+#: MainDlg.py:1680
+msgid "硬件滤波设置"
+msgstr ""
+
+#: MainDlg.py:1690
+msgid "查询设备信息"
+msgstr ""
+
+#: MainDlg.py:1693
+msgid "查询设备版本号"
+msgstr ""
+
+#: MainDlg.py:1695
+msgid "硬件/固件版本未知"
+msgstr ""
+
+#: MainDlg.py:1706
+msgid "发送设置"
+msgstr ""
+
+#: MainDlg.py:1717 MainDlg.py:1754 MainDlg.py:1790 MainDlg.py:1826
+#: MainDlg.py:1862
+msgid "帧ID：0x"
+msgstr ""
+
+#: MainDlg.py:1720 MainDlg.py:1756 MainDlg.py:1793 MainDlg.py:1829
+#: MainDlg.py:1865
+msgid "数据：0x"
+msgstr ""
+
+#: MainDlg.py:1723 MainDlg.py:1759 MainDlg.py:1796 MainDlg.py:1832
+#: MainDlg.py:1868
+msgid "周期(ms)："
+msgstr ""
+
+#: MainDlg.py:1890
+msgid "CAN报文显示"
+msgstr ""
+
+#: MainDlg.py:1893
+msgid "清除显示"
+msgstr ""
+
+#: MainDlg.py:1897
+msgid "不显示发送"
+msgstr ""
+
+#: MainDlg.py:1900
+msgid "不显示接收"
+msgstr ""
+
+#: MainDlg.py:1904
+msgid "另存为"
+msgstr ""
+
+#: MainDlg.py:1905
+msgid "清除数据"
+msgstr ""
+
+#: MainDlg.py:1919 MainDlg.py:1921
+msgid "帧格式 "
+msgstr ""
+
+#: MainDlg.py:1932
+msgid "透传参数设置"
+msgstr ""
+
+#: MainDlg.py:1945
+msgid "数据长度:"
+msgstr ""
+
+#: MainDlg.py:1948
+msgid "查询参数"
+msgstr ""
